@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* div {
+    border: 1px solid black;
+} */
+
+.menu-logo {
+    background-color: #070b0f;
+    height: 4.5rem;
+}
+
+.menu-parte1 {
+    background-color: #e6e7e8;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+}
+
+.menu-parte1 svg {
+    width: 10rem;
+}
+
+.menu-parte2 {
+    background-color: #3777ee;
+    height: 12rem;
+}
+
+.menu-parte3 {
+    background-color: #58595b;
+    height: 5rem;
+}
+
+.content {
+    background-color: #efeff0;
+    height: 100vh;
+    padding: 4rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.banner {
+    height: 16rem;
+    background-color: #c9c9c9;
+    width: 70%;
+}
