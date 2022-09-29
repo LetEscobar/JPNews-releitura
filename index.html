@@ -5,16 +5,19 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+
         <title>JPNews - RCN 67</title>
     </head>
     <body>
         <div class="container">
             <div class="nav">
                 <div class="menu-logo">
-                    <img src="https://www.rcn67.com.br/" alt="" />
-                </div>
-                <div class="menu-parte1">
                     <svg
+                        class="logomarca"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 103.827 35.39"
                     >
@@ -45,25 +48,344 @@
                             ></path>
                         </g>
                     </svg>
-                    <a href=""> JPNEWS </a>
-                    <a href=""> TVC-HD </a>
-                    <a href=""> CBN </a>
-                    <a href=""> CULTURA </a>
-                    <a href=""> BAND FM </a>
-                    <a href=""> SOU 7 </a>
+                </div>
+                <div class="menu-parte1">
+                    <ul>
+                        <li>
+                            <svg
+                                class="logomarca"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 103.827 35.39"
+                            >
+                                <g transform="translate(-200.506 -7.305)">
+                                    <path
+                                        class="corPadraoFILL"
+                                        d="M206.646,29.828h5.223l4.444,4.468h8.881l-5.971-5.942a7.238,7.238,0,0,0,1.509-1.319,6.754,6.754,0,0,0,1.668-4.548,6.754,6.754,0,0,0-2.883-5.824,10.145,10.145,0,0,0-5.924-1.632H200.506V34.3h6.14Zm0-8.656h7.39c.5,0,1.551.059,1.89.487a1.39,1.39,0,0,1,.194.805.888.888,0,0,1-.426.848,3.1,3.1,0,0,1-1.658.4h-7.39Z"
+                                    ></path>
+                                    <path
+                                        class="corPadraoFILL"
+                                        d="M232.992,34.3H243.66V28.155H232.992a3.547,3.547,0,0,1-2.59-.949,3.24,3.24,0,0,1-.96-2.484,3.36,3.36,0,0,1,3.55-3.55H243.66V15.031H232.992a9.7,9.7,0,0,0-6.923,2.607,9.116,9.116,0,0,0-2.767,6.851,9.64,9.64,0,0,0,2.753,7A9.4,9.4,0,0,0,232.992,34.3Z"
+                                    ></path>
+                                    <path
+                                        class="corPadraoFILL"
+                                        d="M257.559,15.031V23.67l-7.313-7.33a3.958,3.958,0,0,0-2.775-1.309,2.691,2.691,0,0,0-2.215,1.088,3.26,3.26,0,0,0-.634,1.971V34.3h6.117V25.663l7.312,7.346a4.242,4.242,0,0,0,2.916,1.449c1.867,0,2.733-1.518,2.733-3.221V15.031Z"
+                                    ></path>
+                                    <path
+                                        class="corPadraoFILL"
+                                        d="M302.466,17.1l-1.076,2.714a15.677,15.677,0,1,1-4.371-6.5h2.893a17.668,17.668,0,1,0,2.554,3.786Z"
+                                    ></path>
+                                    <path
+                                        class="corPadraoFILL"
+                                        d="M282.85,20.58l3.682-5.549h-5.661l-5.854,9.163h0v0a7.267,7.267,0,1,0,7.832-3.612Zm-1.467,9.4A2.277,2.277,0,1,1,283.66,27.7,2.277,2.277,0,0,1,281.383,29.977Z"
+                                    ></path>
+                                    <path
+                                        class="corPadraoFILL"
+                                        d="M288.551,15.031l-3.2,4.824h8.769l-5.8,14.7H293.7l7.745-19.52H288.551Z"
+                                    ></path>
+                                </g>
+                            </svg>
+                        </li>
+                        <li class="separar-itens"></li>
+                        <li class="itens-menu"><a href=""> JPNEWS </a></li>
+                        <li class="separar-itens"></li>
+                        <li class="itens-menu"><a href="">TVC-HD </a></li>
+                        <li class="separar-itens"></li>
+                        <li class="itens-menu"><a href=""> CBN </a></li>
+                        <li class="separar-itens"></li>
+                        <li class="itens-menu"><a href="">CULTURA </a></li>
+                        <li class="separar-itens"></li>
+                        <li class="itens-menu"><a href=""> BAND FM </a></li>
+                        <li class="separar-itens"></li>
+                        <li class="itens-menu"><a href="">SOU 7 </a></li>
+                        <li class="separar-itens"></li>
+                        <li class="icons-menu">
+                            <div class="icons">
+                                <a href="">
+                                    <i class="bx bxl-facebook"></i>
+                                </a>
+                            </div>
+                            <div class="icons">
+                                <a href="">
+                                    <i class="bx bxl-instagram"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
                 <div class="menu-parte2">
-                    <img
-                        src="https://cdn.rcn67.com.br/upload/dn_canal/logo-jpnews.png"
-                        alt=""
-                    />
+                    <div class="menu-parte2-itens">
+                        <svg class="burguer-menu" viewBox="0 0 30 30">
+                            <rect width="30" height="4.29"></rect>
+                            <rect y="12.86" width="30" height="4.29"></rect>
+                            <rect y="25.71" width="30" height="4.29"></rect>
+                        </svg>
+                        <div class="tvc">
+                            <svg
+                                class="icoTV"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16.278"
+                                height="9.732"
+                                viewBox="0 0 16.278 9.732"
+                            >
+                                <defs></defs>
+                                <g transform="translate(-349.999 -95.134)">
+                                    <path
+                                        class="cam1"
+                                        d="M365.724,95.634a1.06,1.06,0,0,0-1.084.04l-2.53,1.614a2.4,2.4,0,0,0-2.375-2.154h-7.348A2.4,2.4,0,0,0,350,97.541v4.918a2.4,2.4,0,0,0,2.388,2.407h7.348a2.4,2.4,0,0,0,2.375-2.154l2.53,1.619a1.071,1.071,0,0,0,.575.168,1.045,1.045,0,0,0,.509-.133,1.062,1.062,0,0,0,.553-.933V96.567A1.062,1.062,0,0,0,365.724,95.634Zm-4.844,6.8a1.148,1.148,0,0,1-1.15,1.15h-7.343a1.148,1.148,0,0,1-1.15-1.15v-4.91a1.148,1.148,0,0,1,1.15-1.15h7.343a1.148,1.148,0,0,1,1.15,1.15Zm4.158.677-2.919-1.871V98.761l2.919-1.871Z"
+                                    ></path>
+                                </g>
+                            </svg>
+                            TVC-HD
+                        </div>
+                        <div class="radio">
+                            <svg
+                                class="icoRadio"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="8.534"
+                                height="10.972"
+                                viewBox="0 0 8.534 10.972"
+                            >
+                                <defs></defs>
+                                <g transform="translate(-509.657 -94.514)">
+                                    <path
+                                        class="sound"
+                                        d="M512.705,103.048h-2.438a.61.61,0,0,1-.61-.61V97.562a.61.61,0,0,1,.61-.61h2.438a.609.609,0,0,1,.609.61v4.876A.609.609,0,0,1,512.705,103.048Zm-1.829-1.219h1.219V98.171h-1.219Z"
+                                    ></path>
+                                    <path
+                                        class="sound"
+                                        d="M516.643,105.486a1.535,1.535,0,0,1-.854-.262l-3.419-2.28a.608.608,0,0,1-.275-.506V97.562a.608.608,0,0,1,.275-.506l3.419-2.28a1.542,1.542,0,0,1,2.4,1.286h0v7.876a1.548,1.548,0,0,1-1.548,1.548Zm-3.329-3.377,3.152,2.1a.335.335,0,0,0,.459-.118.342.342,0,0,0,.047-.156V96.062a.334.334,0,0,0-.349-.32.33.33,0,0,0-.157.046l-3.152,2.1Z"
+                                    ></path>
+                                </g>
+                            </svg>
+                            RÁDIOS
+                            <svg
+                                class="arrowSubmenu"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="14"
+                                height="7.56"
+                                viewBox="0 0 14 7.56"
+                            >
+                                <defs></defs>
+                                <g transform="translate(-590.441 -97.199)">
+                                    <path
+                                        class="arrow"
+                                        d="M597.441,104.759l-7-7,.56-.56,6.44,6.44,6.44-6.44.56.56Z"
+                                    ></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="imagem-menu">
+                        <a href="">
+                            <img
+                                src="https://cdn.rcn67.com.br/upload/dn_canal/logo-jpnews.png"
+                                alt=""
+                            />
+                        </a>
+                    </div>
+                    <div class="informacoes-contato">
+                        <p class="local">Três Lagoas, 27 de setembro</p>
+                        <a class="contato" href="https://wa.me/5567992344539">
+                            <p class="ddd">(67)</p>
+                            <p class="telefone">99234-4539</p>
+                            <svg
+                                class="icoWhats"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="12.86"
+                                height="12.921"
+                                viewBox="0 0 12.86 12.921"
+                            >
+                                <defs></defs>
+                                <path
+                                    class="whats"
+                                    d="M1386.955,104.41l.908-3.318a6.4,6.4,0,1,1,2.486,2.428Zm3.551-2.049a5.33,5.33,0,0,0,8.228-4.465,5.322,5.322,0,1,0-9.7,3.029l-.538,1.964Zm6.131-2.942c-.04-.067-.146-.107-.307-.187s-.946-.467-1.093-.521-.253-.08-.36.081-.414.52-.507.627-.187.12-.347.04a4.395,4.395,0,0,1-1.287-.795,4.859,4.859,0,0,1-.89-1.108c-.093-.16-.009-.247.07-.326s.16-.187.241-.281a1.047,1.047,0,0,0,.161-.266.3.3,0,0,0-.013-.281c-.041-.08-.361-.867-.494-1.188s-.262-.269-.36-.274l-.307-.006a.585.585,0,0,0-.426.2,1.8,1.8,0,0,0-.56,1.334,3.106,3.106,0,0,0,.653,1.655,7.128,7.128,0,0,0,2.733,2.416,9.031,9.031,0,0,0,.912.337,2.194,2.194,0,0,0,1.008.064,1.65,1.65,0,0,0,1.08-.761A1.321,1.321,0,0,0,1396.637,99.419Z"
+                                    transform="translate(-1386.955 -91.489)"
+                                ></path>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-                <div class="menu-parte3"></div>
+                <div class="menu-parte3">
+                    <ul>
+                        <li>
+                            <a href=""
+                                ><svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="15.673"
+                                    height="23.609"
+                                    viewBox="0 0 15.673 23.609"
+                                >
+                                    <g transform="translate(-349.999 -163.089)">
+                                        <path
+                                            class="y"
+                                            d="M357.835,163.089a7.984,7.984,0,0,1,7.837,8.122c0,2.917-3.032,7.665-4.519,10.3l-2.86,4.977a.536.536,0,0,1-.858,0l-2.86-4.977c-1.545-2.631-4.576-7.379-4.576-10.3A7.984,7.984,0,0,1,357.835,163.089Zm0,1.144a6.874,6.874,0,0,0-6.692,6.978c0,2.574,3.031,7.265,4.4,9.667l2.288,4,2.288-4c1.373-2.4,4.405-7.093,4.405-9.667A6.837,6.837,0,0,0,357.835,164.233Z"
+                                        ></path>
+                                        <path
+                                            class="y"
+                                            d="M357.835,167.264a3.776,3.776,0,1,1,0,7.551,3.775,3.775,0,0,1,0-7.551Zm0,1.144a2.632,2.632,0,0,0,0,5.263,2.632,2.632,0,0,0,0-5.263Z"
+                                        ></path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="itens-menu3">
+                            <a href="">CAMPO GRANDE</a>
+                        </li>
+                        <li class="separar-itens3">
+                            <i class="bx bxs-circle"></i>
+                        </li>
+                        <li class="itens-menu3">
+                            <a href="">TRÊS LAGOAS</a>
+                        </li>
+                        <li class="separar-itens3">
+                            <i class="bx bxs-circle"></i>
+                        </li>
+                        <li class="itens-menu3">
+                            <a href="">APARECIDA DO TABOADO</a>
+                        </li>
+                        <li class="separar-itens3">
+                            <i class="bx bxs-circle"></i>
+                        </li>
+                        <li class="itens-menu3">
+                            <a href="">PARANAÍBA</a>
+                        </li>
+                        <li>
+                            <div class="busca">
+                                <i class="bx bx-search"></i>
+                                <input
+                                    class="texto-busca"
+                                    type="search"
+                                    name=""
+                                    id=""
+                                    placeholder="BUSCAR"
+                                />
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="content">
-                <div class="banner"></div>
+                <div class="banner">
+                    <a
+                        href="https://www.rcn67.com.br/banner/clica_banner/1216/"
+                        target="_self"
+                        ><img
+                            src="https://cdn.rcn67.com.br/upload/dn_banner/2022/09/banner-carlos-julio-ate-26102022.gif"
+                            alt="JPNEWS: BANNER RCN EM AÇÃO CARLOS JULIO DE 23.09 A 26.10.2022"
+                    /></a>
+                </div>
+                <div class="noticia-principal">
+                    <a class="texto-noticia-principal" href="">
+                        <div>
+                            <!-- JPNews Três Lagoas  -->
+                            <p class="titulo1">CAPACITAÇÃO</p>
+                            <p class="titulo-principal">
+                                Suzano abre inscrições para nova formação de
+                                profissionais com deficiência
+                            </p>
+                            <p class="descricao-principal">
+                                Curso profissionalizante de ajudante de campo e
+                                viveiro será realizado em parceria com o IEL e
+                                Senai
+                            </p>
+                        </div>
+                    </a>
+                    <a class="imagem-principal" href="">
+                        <div class="gradiente-img">
+                            <p class="titulo">VARIEDADES</p>
+                            <p class="noticia">
+                                Será iniciada as obras de pavimentação e
+                                drenagem na orla da 2ª lagoa
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="banner">
+                    <a href="" target="_self">
+                        <img
+                            src="https://cdn.rcn67.com.br/upload/dn_banner/2022/09/1662385791.jpg"
+                            alt="JPNEWS: BANNER TECOL VILLAS DE CARTAGENA DE 05.09.2022 A 04.10.2022"
+                            border="0"
+                        />
+                    </a>
+                </div>
             </div>
-            <div class="footer"></div>
+            <footer>
+                <div class="footer-parte1">
+                    <a href="https://www.rcn67.com.br/" class="logoRDP">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 157.46 85.73"
+                        >
+                            <path
+                                d="M114.05,80.82A37.85,37.85,0,0,1,79,57.32a.6.6,0,0,1,.33-.78.59.59,0,0,1,.78.32,36.76,36.76,0,1,0,0-28,.6.6,0,0,1-.78.33.61.61,0,0,1-.33-.79,38,38,0,1,1,35.1,52.41Z"
+                            ></path>
+                            <path
+                                d="M112.48,46.52a3.75,3.75,0,0,1-2.71-1l-.06-.05a3.39,3.39,0,0,1-.94-2.54,3.57,3.57,0,0,1,1-2.69,3.62,3.62,0,0,1,2.69-1h11.14V32.8H112.47a10.12,10.12,0,0,0-7.23,2.73,9.49,9.49,0,0,0-2.89,7.15A10.11,10.11,0,0,0,105.22,50l.06,0a9.79,9.79,0,0,0,7.19,2.88h11.15V46.51Z"
+                            ></path>
+                            <path
+                                d="M138.14,32.8v9l-7.65-7.66h0a4.13,4.13,0,0,0-2.9-1.37,2.8,2.8,0,0,0-2.31,1.14,3.39,3.39,0,0,0-.67,2.06V52.93H131v-9l7.64,7.68h0a4.42,4.42,0,0,0,3.05,1.51c1.95,0,2.85-1.59,2.85-3.36V32.8Z"
+                            ></path>
+                            <path
+                                d="M13,43.15v-.06H9.88V42h4.45v.78a4.85,4.85,0,0,1-1.14,3.38,3.93,3.93,0,0,1-3.1,1.25A4.32,4.32,0,0,1,6.72,46a5.46,5.46,0,0,1,0-7,4.43,4.43,0,0,1,3.4-1.4,6.1,6.1,0,0,1,1.23.13,4,4,0,0,1,1,.3,6.1,6.1,0,0,1,.64.36,2.68,2.68,0,0,1,.4.31l.11.12-.77,1a2.92,2.92,0,0,0-.3-.28,3.83,3.83,0,0,0-.86-.43,3.5,3.5,0,0,0-1.4-.28,3,3,0,0,0-2.43,1.06,3.83,3.83,0,0,0-.93,2.63,3.88,3.88,0,0,0,.91,2.61,3,3,0,0,0,2.4,1.06,2.76,2.76,0,0,0,2.1-.83A3,3,0,0,0,13,43.15Z"
+                            ></path>
+                            <path
+                                d="M20.73,37.78h3.75a3.88,3.88,0,0,1,2.62.82,2.87,2.87,0,0,1,.95,2.3,3,3,0,0,1-.55,1.86A2.88,2.88,0,0,1,26,43.82v.06l2.3,3v.25H26.9L24.55,44H22v3.11H20.73Zm6,3.15a1.82,1.82,0,0,0-.6-1.48,2.56,2.56,0,0,0-1.69-.5H22v3.93h2.53a2.42,2.42,0,0,0,1.59-.49A1.77,1.77,0,0,0,26.72,40.93Z"
+                            ></path>
+                            <path
+                                d="M38.45,47.36a3.56,3.56,0,0,1-2.8-1.14,4.38,4.38,0,0,1-1-3V37.78h1.29v5.43a3.23,3.23,0,0,0,.65,2.12,2.32,2.32,0,0,0,1.89.8,2.27,2.27,0,0,0,1.89-.8A3.25,3.25,0,0,0,41,43.21V37.78h1.3v5.43a4.37,4.37,0,0,1-1,3A3.57,3.57,0,0,1,38.45,47.36Z"
+                            ></path>
+                            <path
+                                d="M53.07,37.78a3.82,3.82,0,0,1,2.6.82,2.85,2.85,0,0,1,1,2.3,3,3,0,0,1-1,2.39,3.92,3.92,0,0,1-2.65.84H50.58v3H49.3V37.78Zm2.24,3.15a1.79,1.79,0,0,0-.61-1.48A2.59,2.59,0,0,0,53,39H50.58v4H53C54.54,43,55.31,42.28,55.31,40.93Z"
+                            ></path>
+                            <path
+                                d="M67,47.36A4.29,4.29,0,0,1,63.68,46a5.4,5.4,0,0,1,0-7A4.33,4.33,0,0,1,67,37.57a4.41,4.41,0,0,1,3.4,1.4,5,5,0,0,1,1.29,3.51A4.92,4.92,0,0,1,70.41,46,4.4,4.4,0,0,1,67,47.36Zm0-1.23a3.12,3.12,0,0,0,2.43-1,4.16,4.16,0,0,0,0-5.24A3.07,3.07,0,0,0,67,38.79a3,3,0,0,0-2.39,1.06,4.19,4.19,0,0,0,0,5.24A3,3,0,0,0,67,46.13Z"
+                            ></path>
+                            <path
+                                d="M98.09,46.72a7.64,7.64,0,0,0,1.58-1.38,7,7,0,0,0,1.74-4.75,7.19,7.19,0,0,0-2-5.26,6.74,6.74,0,0,0-1-.82A10.57,10.57,0,0,0,92.2,32.8H78.53V52.93H85V48.26H90.4l4.65,4.67h9.28ZM94.4,41.45a3.17,3.17,0,0,1-1.73.42H84.94V39.22h7.72a3.22,3.22,0,0,1,1.92.45l0,.06a1.36,1.36,0,0,1,.21.84A.92.92,0,0,1,94.4,41.45Z"
+                            ></path>
+                        </svg>
+                        <ul>
+                            <li class="">
+                                <a href="">Quem Somos</a>
+                            </li>
+                            <li class="separar-itens-footer">
+                                <i class="bx bxs-circle"></i>
+                            </li>
+                            <li class="">
+                                <a href="">Fale Conosco</a>
+                            </li>
+                            <li class="separar-itens-footer">
+                                <i class="bx bxs-circle"></i>
+                            </li>
+                            <li class="">
+                                <a href="">Expediente</a>
+                            </li>
+                            <li class="separar-itens-footer">
+                                <i class="bx bxs-circle"></i>
+                            </li>
+                            <li class="">
+                                <a href="">Anuncie</a>
+                            </li>
+                            <li class="separar-itens-footer">
+                                <i class="bx bxs-circle"></i>
+                            </li>
+                            <li class="">
+                                <a href="">Termos</a>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+                <div class="footer-parte2">
+                    <p>© Copyright 2000-2022 Grupo RCN de Comunicação.</p>
+                    <p>
+                        JP NEWS: Razão Social Jornal do Povo S/C Ltda | CNPJ
+                        03.825.361/0001-65 | Inscrição Estadual Isenta |
+                        Inscrição Municipal 5164 | Endereço R. Eurydice Chagas
+                        Cruz, 807 Vila Nova | Três Lagoas MS | CEP: 79602-130
+                    </p>
+                </div>
+            </footer>
         </div>
     </body>
 </html>

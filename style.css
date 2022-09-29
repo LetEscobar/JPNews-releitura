@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -9,51 +11,307 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* div {
-    border: 1px solid black;
-} */
+/* ------------------------- Barra fixa com a logo: ------------------------- */
 
 .menu-logo {
     background-color: #070b0f;
-    height: 4.5rem;
+    padding-block: 1rem;
+    display: flex;
+    justify-content: center;
 }
+.menu-logo .logomarca {
+    width: 7.3rem;
+}
+.menu-logo .logomarca {
+    fill: #ffffff;
+}
+
+/* --------------------- Menu com os itens de navegação --------------------- */
 
 .menu-parte1 {
+    padding: 0.8rem 0.8rem;
     background-color: #e6e7e8;
-    height: 5rem;
-    display: flex;
-    justify-content: space-between;
+    line-height: 20px;
     font-size: 20px;
+}
+.menu-parte1 ul,
+.menu-parte2 ul,
+.menu-parte3 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 }
-
-.menu-parte1 svg {
-    width: 10rem;
+.menu-parte1 li {
+    display: flex;
+    gap: 0.5rem;
 }
+.menu-parte1 .logomarca {
+    width: 100px;
+}
+.menu-parte1 .logomarca path.corPadraoFILL {
+    fill: #3777ee;
+}
+.menu-parte1 li a,
+.menu-parte1 li {
+    color: #58595b;
+}
+.menu-parte1 li a:hover {
+    color: #182c3f;
+    cursor: pointer;
+}
+.menu-parte1 .separar-itens {
+    width: 1px;
+    height: 20px;
+    background-color: #9aa0ad;
+}
+.menu-parte1 .itens-menu {
+    font-weight: 700;
+}
+.menu-parte1 .icons i {
+    border: 1px solid #58595b;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* -------------------- Menu com informações e logomarca -------------------- */
 
 .menu-parte2 {
     background-color: #3777ee;
-    height: 12rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 45px;
 }
+.menu-parte2 {
+    color: #ffffff;
+}
+.menu-parte2 svg {
+    fill: #ffffff;
+}
+.menu-parte2,
+.menu-parte2 .menu-parte2-itens,
+.menu-parte2 .informacoes-contato,
+.menu-parte2 .informacoes-contato a .menu-parte2 {
+    display: flex;
+}
+.menu-parte2 .burguer-menu {
+    width: 30px;
+    margin-right: 5rem;
+}
+.menu-parte2 .tvc {
+    margin-right: 8rem;
+    gap: 0.5rem;
+}
+.menu-parte2 .radio {
+    gap: 1rem;
+    margin-right: 12rem;
+}
+.menu-parte2 .tvc,
+.menu-parte2 .radio,
+.menu-parte2 .telefone {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+.menu-parte2 .local {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    margin-right: 12rem;
+}
+.menu-parte2 .contato {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #ffffff;
+}
+.menu-parte2 .ddd {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* ----------------- Menu com as cidades e o campo de busca ----------------- */
 
 .menu-parte3 {
     background-color: #58595b;
-    height: 5rem;
 }
+.menu-parte3 ul {
+    padding-block: 1rem;
+}
+.menu-parte3 li a,
+.menu-parte3 li {
+    color: #ffffff;
+}
+.menu-parte3 li a:hover {
+    color: #a1a2a4;
+}
+.menu-parte3 li a {
+    font-size: 14px;
+}
+.menu-parte3 li a {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+    display: flex;
+}
+.menu-parte3 .separar-itens3 i {
+    font-size: 4px;
+}
+.menu-parte3 path {
+    fill: #ffffff;
+}
+.menu-parte3 li a:hover path {
+    fill: #a1a2a4;
+}
+.menu-parte3 .busca {
+    background-color: #bcbec0;
+    width: 15rem;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    color: #58595b;
+}
+.menu-parte3 .bx-search {
+    font-size: 22px;
+    font-weight: lighter;
+    margin-inline: 1rem;
+}
+.menu-parte3 .texto-busca {
+    width: 90%;
+    background-color: #bcbec0;
+    outline: none;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
+/* ---------------------------- Conteúdo do site ---------------------------- */
 
 .content {
     background-color: #efeff0;
-    height: 100vh;
-    padding: 4rem;
-    display: flex;
     width: 100%;
-    justify-content: center;
 }
 
 .banner {
-    height: 16rem;
-    background-color: #c9c9c9;
-    width: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 4rem;
+}
+
+.noticia-principal {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-inline: 4.5rem;
+}
+.noticia-principal a {
+    height: 50rem;
+    border-radius: 0.5rem;
+}
+.texto-noticia-principal {
+    width: 62%;
+    background-color: #ffffff;
+    padding: 8rem;
+}
+.titulo1 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #58595b;
+}
+.titulo-principal {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 50px;
+    color: #3777ee;
+}
+.descricao-principal {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 1rem;
+    color: #58595b;
+}
+
+.imagem-principal {
+    width: 36.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: #ffffff;
+    background-image: url('https://cdn.rcn67.com.br/img/c/460/500/dn_arquivo/2022/09/whatsapp-image-2022-09-28-at-111028.jpeg');
+}
+.gradiente-img {
+    padding: 3rem 2rem;
+}
+.imagem-principal .titulo {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+}
+.imagem-principal .noticia {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+footer {
+    background-color: #58595b;
+    padding: 2.5rem 4.5rem 0 4.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+footer svg {
+    width: 10rem;
+}
+footer li a,
+footer li,
+footer p {
+    color: #ffffff;
+}
+footer li a:hover {
+    color: #182c3f;
+}
+footer path {
+    fill: #ffffff;
+}
+.footer-parte1,
+.footer-parte1 ul {
+    display: flex;
+    align-items: center;
+}
+.footer-parte1 {
+    justify-content: space-between;
+}
+.footer-parte2 {
+    width: 22.5%;
+}
+footer p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 1.5rem;
+}
+footer li a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.2px;
+}
+footer .bxs-circle {
+    font-size: 4px;
+}
+footer ul {
+    display: flex;
+    gap: 2.3rem;
 }

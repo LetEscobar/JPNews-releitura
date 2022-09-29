@@ -1,0 +1,10 @@
+BANNERS DA PÁGINA
+
+<a href="https://www.rcn67.com.br/banner/clica_banner/1205/" target="_self"><img src="https://cdn.rcn67.com.br/upload/dn_banner/2022/09/banner-pmtl-pi-1787-de-16-a-2709.gif" alt="JPNEWS: BANNER PMTL PI 1787 DE 16 A 27.09" border="0"></a>
+
+<a href="https://www.rcn67.com.br/banner/clica_banner/1216/" target="_self"><img src="https://cdn.rcn67.com.br/upload/dn_banner/2022/09/banner-carlos-julio-ate-26102022.gif" alt="JPNEWS: BANNER RCN EM AÇÃO CARLOS JULIO DE 23.09 A 26.10.2022" border="0"></a>
+
+<a href=""><img src="https://cdn.rcn67.com.br/upload/dn_banner/2022/09/banner-eldorado-pi-081-01-22-de-26-a-29092022.gif"
+alt="JPNEWS: BANNER ELDORADO PI 081-01-22 DE 26 A 29.09.2022 "/></a>
+
+<a href="" target="_self"><img src="https://cdn.rcn67.com.br/upload/dn_banner/2022/09/1662385791.jpg" alt="JPNEWS: BANNER TECOL VILLAS DE CARTAGENA DE 05.09.2022 A 04.10.2022" border="0"></a>
