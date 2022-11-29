@@ -191,7 +191,14 @@ html {
     font-weight: 400;
     margin-left: 1rem;
 }
-
+.eleicoes {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.eleicoes img {
+    height: 35px;
+}
 /* ---------------------------- Conteúdo do site ---------------------------- */
 
 .content {
@@ -264,8 +271,37 @@ html {
     line-height: 25px;
 }
 
+.feed-noticias div {
+    border: 1px solid black;
+}
+.feed-noticias {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 4.5rem;
+}
+.noticias-atualizadas {
+    display: flex;
+    width: 70%;
+}
+
+.logos img {
+    max-width: 10rem;
+    max-height: 4em;
+}
+.logos li {
+    width: max-content;
+}
+.logos ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+    background-color: #ffffff;
+}
+
 footer {
     background-color: #58595b;
+    margin-top: 2.5rem;
     padding: 2.5rem 4.5rem 0 4.5rem;
     display: flex;
     flex-direction: column;
